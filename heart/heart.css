@@ -4,6 +4,8 @@
 #heart {
   position: relative;
   transition: all 1s;
+  width: 200px;
+  height: 200px;
 }
 
 #heart:hover {
@@ -15,7 +17,7 @@
   height: 100px;
   transform: rotate(45deg) translateX(98px);
   position: absolute;
-  bottom: 140px;
+  bottom: 240px;
   left: 60px;
   border-radius: 50% 0 0 50%;
 }
@@ -24,10 +26,10 @@
   background: rgb(255, 0, 0);
   width: 100px;
   height: 100px;
-  transform: rotate(45deg) translateX(98px);
+  transform: rotate(45deg) translateX(218px);
   position: absolute;
-  bottom: 137px;
-  right: 966px;
+  bottom: 318px;
+  right: -10px;
   border-radius: 50% 50% 0 0;
 }
 #heart > .buttom {
