@@ -1,0 +1,39 @@
+. {
+  box-sizing: border-box;
+}
+#heart {
+  position: relative;
+  transition: all 1s;
+}
+
+#heart:hover {
+  transform: scale(1.2);
+}
+#heart > .left {
+  background: rgb(255, 0, 0);
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg) translateX(98px);
+  position: absolute;
+  bottom: 140px;
+  left: 60px;
+  border-radius: 50% 0 0 50%;
+}
+
+#heart > .right {
+  background: rgb(255, 0, 0);
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg) translateX(98px);
+  position: absolute;
+  bottom: 137px;
+  right: 450px;
+  border-radius: 50% 50% 0 0;
+}
+#heart > .buttom {
+  margin: 200px;
+  background: red;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+}
