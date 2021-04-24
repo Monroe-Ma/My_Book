@@ -1,0 +1,34 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        *::after {
+            box-sizing: border-box;
+        }
+
+        *::before {
+            box-sizing: border-box;
+        }
+
+        #div1 {
+            position: fixed;
+            right: 20px;
+            top: 0;
+        }
+
+        #div1::before {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+
+        #div1::after {
+            content: '';
+            display: block;
+            position: absolute;
+        }

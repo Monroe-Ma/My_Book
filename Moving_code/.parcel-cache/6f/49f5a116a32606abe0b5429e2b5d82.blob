@@ -1,0 +1,18 @@
+#div1 {
+            position: fixed;
+            right: 20px;
+            top: 0;
+        }
+
+        #div1::before {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+
+        #div1::after {
+            content: '';
+            border: solid 1px red;
+            display: block;
+            position: absolute;
+        }

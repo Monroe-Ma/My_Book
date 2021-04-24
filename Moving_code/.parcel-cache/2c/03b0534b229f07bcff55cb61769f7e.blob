@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello,my name...</title>
+</head>
+
+<body>
+    <style id="style">#div1 {
+            position: fixed;
+            right: right;
+        }
+</style>
+    <span id="demo">hi</span>
+    <script src="/index.HASH_REF_ba76236dc15f498c73ded0e523420cfa.js"></script>
+    <div id="div1"></div>
+</body>
+
+</html>

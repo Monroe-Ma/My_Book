@@ -1,0 +1,13 @@
+let demo = document.querySelector("#demo");
+let n = 1;
+demo.innerHTML = n;
+
+let step = () => {
+    console.log(1s后n + 1);
+    setTimeout(() => {
+        n = n + 1;
+        demo.innerHTML = n;
+        step();
+    }, 1000);
+};
+step();

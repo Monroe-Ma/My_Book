@@ -1,0 +1,4 @@
+#div1 {
+            position: fixed;
+            right: 20px;
+        }

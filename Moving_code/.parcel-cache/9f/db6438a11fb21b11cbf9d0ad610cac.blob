@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello,my name...</title>
+</head>
+
+<body>
+    <style id="style"></style>
+    <div id="demo">hi</div>
+    <script src="5ab0d911be27f832b081dcdb7ddcd802"></script>
+    <div id="div1"></div>
+    <style data-parcel-key="1a370e974cf1b4b710c820ebe431db83">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #div1 {
+            position: fixed;
+            right: 20px;
+            top: 0;
+        }
+
+        #div1::before {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+
+        #div1::after {
+            content: '';
+            display: block;
+            position: absolute;
+        }
+    </style>
+</body>
+
+</html>

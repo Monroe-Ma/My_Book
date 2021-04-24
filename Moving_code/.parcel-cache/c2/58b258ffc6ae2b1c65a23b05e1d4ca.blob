@@ -1,0 +1,8 @@
+let demo = document.querySelector("#demo");
+demo.innerHTML = 1;
+
+setTimeout(() => {
+demo.innerHTML=2
+ },3000
+
+)

@@ -1,0 +1,10 @@
+let demo = document.querySelector("#demo");
+demo.innerHTML = n;
+
+setInterval(() => {
+    
+    n = n + 1;
+    demo.innerHTML = n;
+ },3000
+
+)

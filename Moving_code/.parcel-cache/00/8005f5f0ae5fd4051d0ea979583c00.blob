@@ -1,0 +1,15 @@
+#div1 {
+            position: fixed;
+            right: 20px;
+            top: 0;
+        }
+
+        #div1::before {
+            content: '1';
+            border: solid 1px red;
+        }
+
+        #div1::after {
+            content: '2';
+            border: solid 1px red;
+        }
